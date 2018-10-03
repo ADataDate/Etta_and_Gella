@@ -1,7 +1,7 @@
-Etta & Gella at HAckaday!!!
+Etta & Gella at Hackaday!!!
 ========================================
 
-We are going to HAckaday and we need help. 
+We are going to Hackaday and we need help. 
 
 Repository Contents
 -------------------
@@ -9,6 +9,10 @@ Repository Contents
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Spreadsheets** - BOM, parts and boards tracking, etc.
 
+Google Drive Links
+-------------------
+* [Presentation](https://docs.google.com/presentation/d/1X1z0bJy7SYfVST1Kgu7OEDOKLFOzCg2_WMVUaLJVd0Q/edit?usp=sharing)
+* [Materials tracking/planning sheet](https://docs.google.com/spreadsheets/d/1CBFWTrXIt5ifk95HX9c60-q3SKehwmjZQ0Fra5JSir4/edit?usp=sharing)
 
 Review Notes: 
 --------------
