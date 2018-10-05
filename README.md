@@ -8,6 +8,7 @@ Repository Contents
 * **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Spreadsheets** - BOM, parts and boards tracking, etc.
+* **/Graphics** - Brainstorming images, sketches, laser files
 
 Google Drive Links
 -------------------
