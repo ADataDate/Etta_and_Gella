@@ -7894,23 +7894,6 @@ Proximity sense</text>
 <wire x1="-142.24" y1="-114.3" x2="-137.16" y2="-114.3" width="0.1524" layer="91"/>
 <label x="-137.16" y="-114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="J24" gate="G$1" pin="1"/>
-<wire x1="-190.5" y1="-335.28" x2="-187.96" y2="-335.28" width="0.1524" layer="91"/>
-<label x="-187.96" y="-335.28" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U7" gate="G$1" pin="LEDA"/>
-<wire x1="-144.78" y1="-368.3" x2="-157.48" y2="-368.3" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="-157.48" y1="-368.3" x2="-175.26" y2="-368.3" width="0.1524" layer="91"/>
-<wire x1="-175.26" y1="-368.3" x2="-175.26" y2="-370.84" width="0.1524" layer="91"/>
-<wire x1="-175.26" y1="-368.3" x2="-180.34" y2="-368.3" width="0.1524" layer="91"/>
-<label x="-180.34" y="-368.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-<junction x="-175.26" y="-368.3"/>
-<pinref part="R29" gate="G$1" pin="1"/>
-<junction x="-157.48" y="-368.3"/>
-</segment>
 </net>
 <net name="D6" class="0">
 <segment>
@@ -8381,6 +8364,24 @@ Proximity sense</text>
 <wire x1="20.32" y1="180.34" x2="20.32" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="187.96" x2="30.48" y2="187.96" width="0.1524" layer="91"/>
 <junction x="30.48" y="187.96"/>
+</segment>
+</net>
+<net name="LEDA" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="LEDA"/>
+<wire x1="-144.78" y1="-368.3" x2="-157.48" y2="-368.3" width="0.1524" layer="91"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="-175.26" y1="-368.3" x2="-175.26" y2="-370.84" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="-368.3" x2="-175.26" y2="-368.3" width="0.1524" layer="91"/>
+<junction x="-157.48" y="-368.3"/>
+</segment>
+</net>
+<net name="1" class="0">
+<segment>
+<pinref part="J24" gate="G$1" pin="1"/>
+<wire x1="-190.5" y1="-335.28" x2="-187.96" y2="-335.28" width="0.1524" layer="91"/>
+<label x="-187.96" y="-335.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
