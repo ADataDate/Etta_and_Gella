@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5056,6 +5056,30 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </device>
 </devices>
 </deviceset>
+<deviceset name="4.7KOHM" urn="urn:adsk.eagle:component:39723/1" prefix="R" library_version="1">
+<description>&lt;h3&gt;4.7kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-07857"/>
+<attribute name="VALUE" value="4.7k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
@@ -5444,7 +5468,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C9" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
 <part name="C10" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
-<part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
@@ -5469,6 +5492,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J77" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="4.7KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="4.7k"/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="4.7KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="4.7k"/>
+<part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="SUPPLY19" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="C16" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
+<part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C27" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
+<part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C28" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
+<part name="GND47" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C29" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
+<part name="GND48" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5498,8 +5533,8 @@ Proximity sense</text>
 </plain>
 <instances>
 <instance part="Y1" gate="G$1" x="-134.62" y="-30.48" rot="R90">
-<attribute name="NAME" x="-132.588" y="-31.496" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-132.588" y="-27.432" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="NAME" x="-135.636" y="-27.94" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-132.08" y="-27.94" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U1" gate="G$1" x="-93.98" y="-43.18">
 <attribute name="NAME" x="-124.46" y="2.794" size="1.778" layer="95"/>
@@ -5547,12 +5582,12 @@ Proximity sense</text>
 <attribute name="VALUE" x="-155.956" y="1.016" size="1.778" layer="96"/>
 </instance>
 <instance part="C5" gate="G$1" x="-139.7" y="-27.94" rot="R90">
-<attribute name="NAME" x="-141.732" y="-28.321" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-141.732" y="-27.559" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="-142.621" y="-26.416" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="-137.541" y="-26.416" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="C6" gate="G$1" x="-142.24" y="-33.02" rot="R270">
-<attribute name="NAME" x="-144.272" y="-35.179" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-142.494" y="-35.941" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="-139.319" y="-34.544" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="-144.399" y="-34.544" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
 <instance part="GND5" gate="1" x="-147.32" y="-38.1">
 <attribute name="VALUE" x="-149.86" y="-40.64" size="1.778" layer="96"/>
@@ -5584,7 +5619,7 @@ Proximity sense</text>
 <attribute name="VALUE" x="-129.54" y="-157.48" size="1.778" layer="96"/>
 </instance>
 <instance part="U2" gate="G$1" x="-55.88" y="-142.24">
-<attribute name="NAME" x="-68.58" y="-135.636" size="1.778" layer="95"/>
+<attribute name="NAME" x="-63.5" y="-133.096" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-63.5" y="-153.67" size="1.778" layer="96"/>
 </instance>
 <instance part="GND10" gate="1" x="-68.58" y="-154.94">
@@ -5638,8 +5673,8 @@ Proximity sense</text>
 <attribute name="VALUE" x="-391.16" y="-63.5" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
 <instance part="U5" gate="G$1" x="-228.6" y="144.78">
-<attribute name="NAME" x="-225.806" y="150.749" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="-225.806" y="140.208" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="-223.52" y="139.065" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="-223.52" y="149.86" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="GND26" gate="1" x="-228.6" y="132.08">
 <attribute name="VALUE" x="-231.14" y="129.54" size="1.778" layer="96"/>
@@ -6159,9 +6194,6 @@ Proximity sense</text>
 <attribute name="NAME" x="-44.196" y="-141.859" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-44.196" y="-146.939" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND14" gate="1" x="-27.94" y="-12.7">
-<attribute name="VALUE" x="-30.48" y="-15.24" size="1.778" layer="96"/>
-</instance>
 <instance part="GND15" gate="1" x="-22.86" y="-55.88">
 <attribute name="VALUE" x="-25.4" y="-58.42" size="1.778" layer="96"/>
 </instance>
@@ -6246,6 +6278,48 @@ Proximity sense</text>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="269.24" y="-132.08">
 <attribute name="VALUE" x="268.224" y="-128.524" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="-40.64" y="-35.56" rot="R90">
+<attribute name="NAME" x="-42.164" y="-35.56" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-39.116" y="-35.56" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="R5" gate="G$1" x="-40.64" y="-53.34" rot="R90">
+<attribute name="NAME" x="-42.164" y="-53.34" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-39.116" y="-53.34" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY11" gate="G$1" x="-40.64" y="-25.4">
+<attribute name="VALUE" x="-41.656" y="-21.844" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY19" gate="G$1" x="-40.64" y="-63.5" rot="R180">
+<attribute name="VALUE" x="-39.624" y="-67.056" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C16" gate="G$1" x="-182.88" y="-375.92">
+<attribute name="NAME" x="-181.356" y="-372.999" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-181.356" y="-378.079" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND18" gate="1" x="-182.88" y="-386.08">
+<attribute name="VALUE" x="-185.42" y="-388.62" size="1.778" layer="96"/>
+</instance>
+<instance part="C27" gate="G$1" x="-190.5" y="-375.92">
+<attribute name="NAME" x="-188.976" y="-372.999" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-188.976" y="-378.079" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND36" gate="1" x="-190.5" y="-386.08">
+<attribute name="VALUE" x="-193.04" y="-388.62" size="1.778" layer="96"/>
+</instance>
+<instance part="C28" gate="G$1" x="-198.12" y="-375.92">
+<attribute name="NAME" x="-196.596" y="-372.999" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-196.596" y="-378.079" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND47" gate="1" x="-198.12" y="-386.08">
+<attribute name="VALUE" x="-200.66" y="-388.62" size="1.778" layer="96"/>
+</instance>
+<instance part="C29" gate="G$1" x="-205.74" y="-375.92">
+<attribute name="NAME" x="-204.216" y="-372.999" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-204.216" y="-378.079" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND48" gate="1" x="-205.74" y="-386.08">
+<attribute name="VALUE" x="-208.28" y="-388.62" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -6582,6 +6656,26 @@ Proximity sense</text>
 <wire x1="261.62" y1="-149.86" x2="269.24" y2="-149.86" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="-182.88" y1="-378.46" x2="-182.88" y2="-383.54" width="0.1524" layer="91"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="-190.5" y1="-378.46" x2="-190.5" y2="-383.54" width="0.1524" layer="91"/>
+<pinref part="GND36" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C28" gate="G$1" pin="2"/>
+<wire x1="-198.12" y1="-378.46" x2="-198.12" y2="-383.54" width="0.1524" layer="91"/>
+<pinref part="GND47" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C29" gate="G$1" pin="2"/>
+<wire x1="-205.74" y1="-378.46" x2="-205.74" y2="-383.54" width="0.1524" layer="91"/>
+<pinref part="GND48" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -6857,6 +6951,16 @@ Proximity sense</text>
 <wire x1="261.62" y1="-139.7" x2="269.24" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="-139.7" x2="269.24" y2="-132.08" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="-40.64" y1="-30.48" x2="-40.64" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="-58.42" x2="-40.64" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="SUPPLY19" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="VDDCORE" class="0">
@@ -7199,8 +7303,12 @@ Proximity sense</text>
 <net name="SDA" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA22(I2C/SER3:0+)"/>
-<wire x1="-58.42" y1="-43.18" x2="-55.88" y2="-43.18" width="0.1524" layer="91"/>
-<label x="-55.88" y="-43.18" size="1.27" layer="95" xref="yes"/>
+<wire x1="-58.42" y1="-43.18" x2="-40.64" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-35.56" y="-43.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="-43.18" x2="-35.56" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-40.64" x2="-40.64" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="-40.64" y="-43.18"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="SDA"/>
@@ -7226,8 +7334,12 @@ Proximity sense</text>
 <net name="SCL" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA23(I2C/SER3:0+)"/>
-<wire x1="-58.42" y1="-45.72" x2="-55.88" y2="-45.72" width="0.1524" layer="91"/>
-<label x="-55.88" y="-45.72" size="1.27" layer="95" xref="yes"/>
+<wire x1="-58.42" y1="-45.72" x2="-40.64" y2="-45.72" width="0.1524" layer="91"/>
+<label x="-38.1" y="-45.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="-40.64" y1="-45.72" x2="-38.1" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-48.26" x2="-40.64" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="-40.64" y="-45.72"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="SCL"/>
@@ -7463,6 +7575,29 @@ Proximity sense</text>
 <wire x1="-175.26" y1="-368.3" x2="-175.26" y2="-370.84" width="0.1524" layer="91"/>
 <wire x1="-157.48" y1="-368.3" x2="-175.26" y2="-368.3" width="0.1524" layer="91"/>
 <junction x="-157.48" y="-368.3"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="-182.88" y1="-368.3" x2="-182.88" y2="-370.84" width="0.1524" layer="91"/>
+<wire x1="-165.1" y1="-368.3" x2="-175.26" y2="-368.3" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="-175.26" y1="-368.3" x2="-182.88" y2="-368.3" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="-368.3" x2="-190.5" y2="-370.84" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="-368.3" x2="-175.26" y2="-368.3" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="-175.26" y1="-368.3" x2="-182.88" y2="-368.3" width="0.1524" layer="91"/>
+<wire x1="-182.88" y1="-368.3" x2="-190.5" y2="-368.3" width="0.1524" layer="91"/>
+<wire x1="-198.12" y1="-368.3" x2="-198.12" y2="-370.84" width="0.1524" layer="91"/>
+<wire x1="-180.34" y1="-368.3" x2="-182.88" y2="-368.3" width="0.1524" layer="91"/>
+<pinref part="C29" gate="G$1" pin="1"/>
+<wire x1="-182.88" y1="-368.3" x2="-190.5" y2="-368.3" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="-368.3" x2="-198.12" y2="-368.3" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="-368.3" x2="-205.74" y2="-370.84" width="0.1524" layer="91"/>
+<wire x1="-187.96" y1="-368.3" x2="-190.5" y2="-368.3" width="0.1524" layer="91"/>
+<junction x="-198.12" y="-368.3"/>
+<wire x1="-190.5" y1="-368.3" x2="-198.12" y2="-368.3" width="0.1524" layer="91"/>
+<wire x1="-198.12" y1="-368.3" x2="-205.74" y2="-368.3" width="0.1524" layer="91"/>
+<junction x="-190.5" y="-368.3"/>
+<junction x="-182.88" y="-368.3"/>
+<junction x="-175.26" y="-368.3"/>
 </segment>
 </net>
 <net name="N$1" class="0">
