@@ -17,7 +17,7 @@ acknowledge you and be non-commercial, they don’t have to
  license their derivative works on the same terms.
  
 Keep in touch with us:
-* Mary @_LightningHawk, https://www.ettawest.com
-* Angela @the_gella, https://gellacraft.com
+* Mary [@_LightningHawk](https://twitter.com/_LightningHawk), https://www.ettawest.com
+* Angela [@the_gella](https://twitter.com/the_gella), https://gellacraft.com
 
 
