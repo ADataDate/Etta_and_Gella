@@ -9,8 +9,7 @@ Repository Contents
 * **/Spreadsheets** - BOM, parts and boards tracking, etc.
 * **/Graphics** - Brainstorming images, sketches, laser files
  
-Released under: 
-https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+Released under: `https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
 This license lets others remix, tweak, and build upon your work
 non-commercially, and although their new works must also 
