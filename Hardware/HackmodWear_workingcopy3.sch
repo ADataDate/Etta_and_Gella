@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5530,6 +5530,12 @@ Proximity sense</text>
 <circle x="-236.22" y="177.8" radius="92.037765625" width="2.54" layer="97"/>
 <text x="-396.24" y="7.62" size="12.7" layer="97">FUN LEDs</text>
 <circle x="198.12" y="-88.9" radius="101.6" width="3.81" layer="97"/>
+<text x="-15.24" y="-251.46" size="5.08" layer="97">https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+This license lets others remix, tweak, and build upon your work
+non-commercially, and although their new works must also 
+acknowledge you and be non-commercial, they don’t have to
+ license their derivative works on the same terms.</text>
 </plain>
 <instances>
 <instance part="Y1" gate="G$1" x="-134.62" y="-30.48" rot="R90">
