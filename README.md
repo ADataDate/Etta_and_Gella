@@ -1,5 +1,7 @@
 Designing Expressive Modular Wearbale Hardware
 with Etta and Gella @ Hackaday Superconference November 2, 2018 
+
+[Workshop slides](https://docs.google.com/presentation/d/1X1z0bJy7SYfVST1Kgu7OEDOKLFOzCg2_WMVUaLJVd0Q/edit?usp=sharing)
 =================================================================
 
 Repository Contents
