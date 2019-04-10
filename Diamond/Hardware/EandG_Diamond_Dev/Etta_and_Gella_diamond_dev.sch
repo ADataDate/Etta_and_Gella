@@ -5291,11 +5291,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J18" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
 <part name="D1" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="330OHM" device="-0603-1/10W-1%" value="330"/>
-<part name="SUPPLY21" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D3" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="R17" library="SparkFun-Resistors" deviceset="330OHM" device="-0603-1/10W-1%" value="330"/>
-<part name="SUPPLY22" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C21" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C22" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
@@ -5357,7 +5355,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J64" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
 <part name="J65" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
 <part name="J68" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
-<part name="SUPPLY39" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="J69" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
 <part name="J70" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
 <part name="J71" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
@@ -5390,7 +5387,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="D4" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="330OHM" device="-0603-1/10W-1%" value="330"/>
-<part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
 <part name="J20" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
@@ -5670,9 +5666,6 @@ Inspired by Ardiuno Zero</text>
 <attribute name="NAME" x="232.156" y="-43.18" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="235.204" y="-43.18" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SUPPLY21" gate="G$1" x="233.68" y="-25.4">
-<attribute name="VALUE" x="232.664" y="-21.844" size="1.778" layer="96"/>
-</instance>
 <instance part="GND27" gate="1" x="233.68" y="-53.34"/>
 <instance part="D3" gate="G$1" x="251.46" y="-30.48">
 <attribute name="NAME" x="248.031" y="-35.052" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -5681,9 +5674,6 @@ Inspired by Ardiuno Zero</text>
 <instance part="R17" gate="G$1" x="251.46" y="-43.18" rot="R90">
 <attribute name="NAME" x="249.936" y="-43.18" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="252.984" y="-43.18" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="SUPPLY22" gate="G$1" x="251.46" y="-25.4">
-<attribute name="VALUE" x="250.444" y="-21.844" size="1.778" layer="96"/>
 </instance>
 <instance part="GND32" gate="1" x="251.46" y="-53.34">
 <attribute name="VALUE" x="248.92" y="-55.88" size="1.778" layer="96"/>
@@ -5914,9 +5904,6 @@ Inspired by Ardiuno Zero</text>
 <attribute name="VALUE" x="177.8" y="-30.226" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="177.8" y="-22.352" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="SUPPLY39" gate="G$1" x="200.66" y="-2.54">
-<attribute name="VALUE" x="199.644" y="1.016" size="1.778" layer="96"/>
-</instance>
 <instance part="J69" gate="G$1" x="180.34" y="-58.42">
 <attribute name="VALUE" x="177.8" y="-63.246" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="177.8" y="-55.372" size="1.778" layer="95" font="vector"/>
@@ -6034,9 +6021,6 @@ Inspired by Ardiuno Zero</text>
 <instance part="R2" gate="G$1" x="271.78" y="-43.18" rot="R90">
 <attribute name="NAME" x="270.256" y="-43.18" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="273.304" y="-43.18" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="SUPPLY6" gate="G$1" x="271.78" y="-25.4">
-<attribute name="VALUE" x="270.764" y="-21.844" size="1.778" layer="96"/>
 </instance>
 <instance part="GND12" gate="1" x="271.78" y="-53.34">
 <attribute name="VALUE" x="269.24" y="-55.88" size="1.778" layer="96"/>
@@ -6497,16 +6481,6 @@ Inspired by Ardiuno Zero</text>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
-<wire x1="233.68" y1="-25.4" x2="233.68" y2="-27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="D3" gate="G$1" pin="A"/>
-<pinref part="SUPPLY22" gate="G$1" pin="3.3V"/>
-<wire x1="251.46" y1="-25.4" x2="251.46" y2="-27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="-391.16" y1="-76.2" x2="-391.16" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="-391.16" y1="-71.12" x2="-381" y2="-71.12" width="0.1524" layer="91"/>
@@ -6624,11 +6598,6 @@ Inspired by Ardiuno Zero</text>
 <pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="A"/>
-<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
-<wire x1="271.78" y1="-25.4" x2="271.78" y2="-27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="-40.64" y1="-30.48" x2="-40.64" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
@@ -6657,32 +6626,6 @@ Inspired by Ardiuno Zero</text>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 <wire x1="-12.7" y1="-81.28" x2="-12.7" y2="-83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J62" gate="G$1" pin="1"/>
-<pinref part="SUPPLY39" gate="G$1" pin="3.3V"/>
-<wire x1="187.96" y1="-40.64" x2="200.66" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="-40.64" x2="200.66" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="J64" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="-35.56" x2="200.66" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="-30.48" x2="200.66" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="-25.4" x2="200.66" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="-20.32" x2="200.66" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="-15.24" x2="200.66" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="-15.24" x2="200.66" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="200.66" y="-15.24"/>
-<pinref part="J77" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="-20.32" x2="200.66" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="200.66" y="-20.32"/>
-<pinref part="J68" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="-25.4" x2="200.66" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="200.66" y="-25.4"/>
-<pinref part="J70" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="-30.48" x2="200.66" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="200.66" y="-30.48"/>
-<pinref part="J20" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="-35.56" x2="200.66" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="200.66" y="-35.56"/>
 </segment>
 </net>
 <net name="VDDCORE" class="0">
@@ -6861,6 +6804,46 @@ Inspired by Ardiuno Zero</text>
 <pinref part="J5" gate="G$1" pin="1"/>
 <wire x1="-177.8" y1="-137.16" x2="-175.26" y2="-137.16" width="0.1524" layer="91"/>
 <label x="-175.26" y="-137.16" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="233.68" y1="-25.4" x2="233.68" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="-25.4" x2="251.46" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="251.46" y1="-25.4" x2="271.78" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="-25.4" x2="279.4" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="-25.4" x2="251.46" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="251.46" y="-25.4"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="271.78" y1="-25.4" x2="271.78" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="271.78" y="-25.4"/>
+<label x="279.4" y="-25.4" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J62" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="-40.64" x2="200.66" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-40.64" x2="200.66" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="J64" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="-35.56" x2="200.66" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-30.48" x2="200.66" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-25.4" x2="200.66" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-20.32" x2="200.66" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="-15.24" x2="200.66" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="J77" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="-20.32" x2="200.66" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="200.66" y="-20.32"/>
+<pinref part="J68" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="-25.4" x2="200.66" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="200.66" y="-25.4"/>
+<pinref part="J70" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="-30.48" x2="200.66" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="200.66" y="-30.48"/>
+<pinref part="J20" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="-35.56" x2="200.66" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="200.66" y="-35.56"/>
+<wire x1="200.66" y1="-15.24" x2="210.82" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="200.66" y="-15.24"/>
+<label x="210.82" y="-15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D8" class="0">
