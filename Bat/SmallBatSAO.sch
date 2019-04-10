@@ -2079,6 +2079,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LED1" library="PLCC4_reverse-mount_led" deviceset="PLCC4_REVERSE_MOUNT" device=""/>
 <part name="S2" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-AYZ0202"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -2110,6 +2111,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="LED1" gate="G$1" x="35.814" y="104.902"/>
 <instance part="S2" gate="1" x="45.72" y="33.02" rot="MR0"/>
 <instance part="SUPPLY2" gate="VDD" x="50.8" y="36.576"/>
+<instance part="C4" gate="G$1" x="87.63" y="25.908"/>
 </instances>
 <busses>
 </busses>
@@ -2211,9 +2213,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="57.658" y1="20.32" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="23.368" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="20.32" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="20.32" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
 <junction x="68.58" y="20.32"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="17.78" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="23.368" x2="87.63" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="17.78" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
+<junction x="68.58" y="17.78"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -2341,6 +2348,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="+"/>
 <pinref part="S2" gate="1" pin="S"/>
 <wire x1="38.1" y1="30.48" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="87.63" y1="30.988" x2="87.63" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
+<label x="88.9" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
